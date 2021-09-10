@@ -1,2 +1,11 @@
 node_modules/
-\*cache.json
+*cache.json
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# dotenv environment variables file
+.env
