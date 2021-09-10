@@ -62,7 +62,7 @@ Getting up to speed with GraphQL. I've been wanting to dig into some GraphQL con
 
 Pagination in GraphQL and Github. This was significantly more challenging than I expected. I'm fairly certain I managed to settle on a decent attempt at pagination but will be very curious to see this in action in a hardened code base. I ran into a ton of spaghetti code and had multiple days of deleting and re-writing code in order to get something that worked.
 
-Caching or rather make the application "smart" enough to use the cache rather than running a long running API request. I still wanted to have a check in place that would figure out if there was a newly updated PR and add that to the cache. I settled on essentially taking the first 100 prs and comparing the oldest of the lot to a new Date() I added to my cache. I compare the two dates and if the oldest PR is new than the last query time, I step into the next bach of PRs. If not, I simply add the 1 query to my cache and move on to the next repo.
+Caching or rather make the application "smart" enough to use the cache rather than running a long running API request. I wanted to have a check in place that would figure out if there was a newly updated PR and add that to the cache. I settled on essentially taking the first 100 prs and comparing the oldest of the lot to a new Date() I added to my cache. I compare the two dates and if the oldest PR is new than the last query time, I step into the next bach of PRs. If not, I simply add the 1 query to my cache and move on to the next repo.
 
 ### What I didn't get to
 
