@@ -1,44 +1,5 @@
 import { getPullRequestsForRepoPage, getReposPage } from './getData';
-import fs from 'fs';
-
-let myCache = {
-  lastQueryTime: null,
-  prs: {},
-  prCount: 0,
-  repoNames: []
-};
-
-function loadCache() {
-  return new Promise((resolve) => {
-    fs.readFile('cache.json', (err, data) => {
-      if (err) {
-        console.log('Cache not found, re-running query.')
-        resolve();
-        return;
-      }
-      myCache = JSON.parse(data.toString());
-      resolve();
-    });
-  });
-}
-
-function saveCache() {
-  return new Promise((resolve, reject) => {
-    fs.writeFile(
-      'cache.json',
-      JSON.stringify(myCache, null, 2),
-      err => {
-        if (err) {
-          reject(err);
-        } else {
-          console.log('Cache Created!');
-          console.log('Total Available Prs =', myCache.prCount);
-          resolve();
-        }
-      }
-    );
-  });
-}
+import { myCache, loadCache, saveCache, hasCachedData } from "./cacheFunctions";
 
 export const gatherAllPullRequests = async () => {
   await loadCache();
@@ -85,12 +46,6 @@ export const getAllRepos = async () => {
     }
   }
   return repos;
-}
-
-function hasCachedData(prs) {
-  const last = new Date(myCache.lastQueryTime);
-  const oldestNode = new Date(prs[prs.length - 1].updatedAt);
-  return last > oldestNode;
 }
 
 export const getAllPRs = async repoName => {
