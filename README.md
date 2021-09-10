@@ -54,7 +54,9 @@ Cache Created!
 Total Available Prs = 1986
 ```
 
-This represent the total number of currently accesible PRs in the Ramba org and all it's repositories.
+This represents the total number of currently accesible PRs in the Ramba org and all it's repositories.
+
+It should also have created a 'cache.json' file at the root of the repository. This is what I settled on as my "caching" mechanism.
 
 ### Biggest Challenges
 
