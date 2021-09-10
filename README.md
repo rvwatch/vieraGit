@@ -1,81 +1,72 @@
 # vieraGit - custom github cli
 
+## Description
+
+vieraGit is a custom CLI that leverages GraphQL and the Github API to gather pull request data from Github Orgs/Repositories. It currently pulls in data from the "Ramda" org on github.
+
 ## Tech used
 
 NodeJS
 GraphQL
 Axios
 
-Went with React as it seems perfectly fit for this type of UI and also happens to be the framework I’m most familiar with.
+### MVP
 
-I also implemented some “new to me” technologies as I was confident they wouldn’t slow me down and in fact might help illuminate some unknowns worth keeping in mind in the future.
+Retrieve EVERY pull request for the Ramda organization
+Use the Github web API — I’m trying out the GraphQL version
+Store the results in memory
+Make a NodeJS console app
 
-Storybook, specifically is new tech for me. I’ve heard great things and felt that this might fit with the notion of working with a design system, components, tokens, actions, documentation, etc.
+## Getting Started
 
-I deployed and hosted the prototype using Firebase. I’m familiar with Firebase Auth as I’ve used it in several projects and have been pleased with it’s relative ease of use. Hosting was no different. After logging into firebase I was able to run a few simple CLI commands that prompted me through the deploy process.
+Clone the repository - `git clone https://github.com/rvwatch/vieraGit.git`
 
-I settled on chrome as the main platform to run this SPA. Part of my assumption is that considerations of cross browser compatibility will be a focus later in the app dev cycle.
+CD into the repository and run:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `npm install`
 
-## Available Scripts
+### `npm link`
 
-In the project directory, you can run:
+### Env var setup
 
-### `npm start`
+You'll need to have a PAT (Personal Access Token) setup and in place in order to Auth to the Github graphql api.
+<https://docs.github.com/en/github/authenticating-to-github/keeping-your-account-and-data-secure/creating-a-personal-access-token>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+After that's created you can export your token directly into your shell as:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+### `ACCESS_TOKEN`
 
-### `npm run build`
+Examples:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- for linux: `export ACCESS_TOKEN="your PAT"`
+- for windows: `$env:ACCESS_TOKEN = "your PAT"`
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+After that's in place you should be able to hop into your shell and run:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+vieraGit
+```
 
-### `npm eject`
+in your terminal and you should receive a response of:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+Cache Created!
+Total Available Prs = 1986
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This represent the total number of currently accesible PRs in the Ramba org and all it's repositories.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### Biggest Challenges
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Getting up to speed with GraphQL. I've been wanting to dig into some GraphQL concepts to get a better sense of what it's about and why I'm seeing it everywhere. It is obviously quite powerful, however, there was a bit of a learning curve I needed to get past in order to be effective. Probably not the best time to jump into new tech. That being said, I'm glad I did as it's clear now why GraphQL can be so powerful.
 
-## Learn More
+Pagination in GraphQL and Github. This was significantly more challenging than I expected. I'm fairly certain I managed to settle on a decent attempt at pagination but will be very curious to see this in action in a hardened code base. I ran into a ton of spaghetti code and had multiple days of deleting and re-writing code in order to get something that worked.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Caching or rather make the application "smart" enough to use the cache rather than running a long running API request. I still wanted to have a check in place that would figure out if there was a newly updated PR and add that to the cache. I settled on essentially taking the first 100 prs and comparing the oldest of the lot to a new Date() I added to my cache. I compare the two dates and if the oldest PR is new than the last query time, I step into the next bach of PRs. If not, I simply add the 1 query to my cache and move on to the next repo.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+### What I didn't get to
 
-### Code Splitting
+Tests... Tests... Tests...
+As a result of trying out GraphQL for the first time and really struggling with an effective pagination / caching setup, I decided to forego testing in the short term. In other words I assumed TDD wouldn't be as effective while trying to learn a completely new tech. I'm on the fence about that. This probably would have gone smoother if I had really force myself to graple with the shape of my data first.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Flags. I originally had a plan of being able to pass in flags like '--repoName ramda' that would allow me to target a specific repo in an org. I'd also like to get these in place for filtering data by dates for example.
