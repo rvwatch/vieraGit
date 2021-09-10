@@ -101,17 +101,15 @@ export const getAllPRs = async repoName => {
       after,
       name: repoName
     });
-    // console.log('requested PRS', prName)
     data = [...data, ...prs];
 
     if (_after && !hasCachedData(prs)) {
       after = _after;
-      //console.log('Heres after', after)
     } else {
       break;
     }
   }
-  // console.log('Data in line 132', data)
+
   return data;
 }
 
