@@ -1,71 +1,171 @@
 import axios from 'axios';
  
-const accessToken = process.env.accessToken;
+const accessToken = "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";
 
 
-const buildQuery = (options) => {
+const buildReposQuery = (options) => {
   console.log('the options', options)
   const query = `
-{
-  organization(login: "ramda") {
-    repositories(first:${options.first}){
-      totalCount
-      nodes{
-        name
-        pullRequests(first:${options.first},after:${options.after}, states:[OPEN,CLOSED,MERGED]){
-          pageInfo{
-            startCursor
-            endCursor
-            hasNextPage
-            hasPreviousPage
-          }
-          edges{
-            node{
-              title
-              createdAt
-              state
-              mergedAt
-              author{
-                login
-              }
-              mergeCommit{
-                id
-              }
-            }
-          }
+  query Organization($after: String) {
+    organization(login: "ramda") {
+      repositories(first:100, after:$after){
+        pageInfo{
+          endCursor
+          hasNextPage
+        }
+        totalCount
+        nodes{
+          name
         }
       }
-    }   
+    }
   }
-}
 `;
-return {query}
+console.log('Current Query!', query);
+return { query, variables: options }
 }
- 
-export async function getIssues (options) {
 
-  
+const buildPullQuery = (options) => {
+  //console.log('the options', options)
+  const query = `
+  query Organization($after: String, $name: String!) {
+    organization(login: "ramda") {
+      repository(name: $name){
+          name
+          pullRequests(first:100,after:$after, states:[OPEN,CLOSED,MERGED]){
+            edges{
+              cursor
+              node{
+                title
+                createdAt
+                closedAt
+                state
+                mergedAt
+                author{
+                  login
+                }
+              }
+            }
+            pageInfo{
+              startCursor
+              endCursor
+              hasNextPage
+              hasPreviousPage
+            }
+        }
+      }
+    }
+  }
+`;
+//console.log('Current Query!', query);
+return { query, variables: options }
+}
+
+const myCache = {
+  repos: {},
+  prs: {}
+};
+
+export const getAllPullRequests = async () => {
+  const repos = await getAllRepos(); 
+  console.log('ALL REPOS:', repos);
+
+  return Promise.all(repos.map(async repoName =>  {
+    const prs = await getAllPRs(repoName);
+    
+    return { repoName, prs };
+  }));
+
+  // repos = [{
+  //   repoName: '',
+  //   prs: []
+  // }];
+}
+
+export const getAllRepos = async () => {
+  let after = null; 
+  let repos = [];
+  while(true){
+    const { page, after: _after } = await getReposPage({after});
+    repos = [...repos, ...page]
+    if(_after){
+      after = _after;
+    } else {
+      break; 
+    }
+  }
+  // return repos; 
+  // TODO: un-hardcode
+  return [
+    // 'ramda',
+    'ramdangular',
+    'ramda.github.io'
+  ];
+}
+
+export const getReposPage = async (options) => {
   try {
     const response = await axios('https://api.github.com/graphql', {
       method: 'POST',
-      data: JSON.stringify(buildQuery(options)),
+      data: JSON.stringify(buildReposQuery(options)),
       headers: {
         'Authorization': `Bearer ${accessToken}`,
       },
     });
-
-    const data = response.data.data.organization.repositories.nodes;
     
-    
-    console.log('The data', data[0].pullRequests.pageInfo)
+    const { repositories } = response.data.data.organization;
+    const after = repositories.pageInfo.hasNextPage && repositories.pageInfo.endCursor;
+      
+    const page = repositories.nodes.map(repo => repo.name);
 
-    // if there's an end cursor time to recurse on that
-    // passing the end cursor INTO a new query
+    return {page, after};
 
-
-    return data;
-  } catch (error) {
-    console.error(error.message)
+    } catch (err) {
+      console.log(err);
+    }
   }
+  
+export const getAllPRs = async repoName => {
+  let after = null; 
+  let data = [];
+  while(true){
+    const { prs, after: _after } = await getPullRequestForRepo({
+      after,
+      name: repoName
+    });
+    // console.log('requested PRS', prName)
+    data = [...data, ...prs];
+    if(_after){
+      after = _after;
+      //console.log('Heres after', after)
+    } else {
+      break; 
+    }
+  }
+  // console.log('Data in line 132', data)
+  return data; 
 }
 
+
+  export const getPullRequestForRepo = async (options) => {
+    
+    try {
+      const response = await axios('https://api.github.com/graphql', {
+        method: 'POST',
+        data: JSON.stringify(buildPullQuery(options)),
+        headers: {
+          'Authorization': `Bearer ${accessToken}`,
+        },
+      });
+      // console.log('THE PR RESPONSE!', response.data.data.organization.repository)
+      const { pullRequests } = response.data.data.organization.repository;
+      const after = pullRequests.pageInfo.hasNextPage && pullRequests.pageInfo.endCursor;
+        
+      const prs = pullRequests.edges.map(edge => edge.node);
+      // console.log('WHAT IS PRS? new ARRAY', prs)
+      return {prs, after};
+  
+      } catch (err) {
+        console.log(err);
+      }
+    }

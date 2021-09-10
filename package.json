@@ -2,7 +2,6 @@
   "name": "@viera/vgit",
   "version": "1.0.0",
   "description": "",
-  "main": "src/cli.js",
   "bin": {
     "@viera/vieraGit": "bin/vieraGit",
     "vieraGit": "bin/vieraGit"
@@ -11,8 +10,7 @@
     "access": "public"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./src/query.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "cli",
