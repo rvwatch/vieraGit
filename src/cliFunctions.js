@@ -1,10 +1,11 @@
-import {getPullRequestsForRepoPage, getReposPage} from './getData';
+import { getPullRequestsForRepoPage, getReposPage } from './getData';
 import fs from 'fs';
 
 let myCache = {
   lastQueryTime: null,
   prs: {},
-  prCount: 0
+  prCount: 0,
+  repoNames: []
 };
 
 function loadCache() {
@@ -39,11 +40,11 @@ function saveCache() {
   });
 }
 
-export const getAllPullRequests = async () => {
+export const gatherAllPullRequests = async () => {
   await loadCache();
 
-  const repos = await getAllRepos();
-  const newData = await Promise.all(repos.map(async repoName => {
+  myCache.repoNames = await getAllRepos();
+  const newData = await Promise.all(myCache.repoNames.map(async repoName => {
     const prs = await getAllPRs(repoName);
 
     return { repoName, prs };
