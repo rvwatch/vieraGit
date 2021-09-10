@@ -1,4 +1,6 @@
 import axios from 'axios';
+import fs from 'fs';
+import { resolve } from 'path';
  
 const accessToken = "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";
 
@@ -32,10 +34,16 @@ const buildPullQuery = (options) => {
     organization(login: "ramda") {
       repository(name: $name){
           name
-          pullRequests(first:100,after:$after, states:[OPEN,CLOSED,MERGED]){
+          pullRequests(
+            first:100,
+            after:$after, 
+            states:[OPEN,CLOSED,MERGED], 
+            orderBy:{ field: UPDATED_AT, direction:DESC }
+          ){
             edges{
               cursor
               node{
+                id
                 title
                 createdAt
                 closedAt
@@ -61,25 +69,65 @@ const buildPullQuery = (options) => {
 return { query, variables: options }
 }
 
-const myCache = {
-  repos: {},
-  prs: {}
+let myCache = {
+  // repos: {},
+  lastQueryTime: null,
+  prs: {} // id -> PR obj
 };
 
+function loadCache() {
+    return new Promise((resolve, reject) => {
+      fs.readFile('cache.json', (err, data) => {
+        if (err){
+          reject(err); 
+          return;
+        }
+        myCache = JSON.parse(data.toString());
+        resolve();
+      });
+    });
+}
+
+function saveCache() {
+  return new Promise((resolve, reject) => {
+    fs.writeFile(
+      'cache.json',
+      JSON.stringify(myCache, null, 2),
+      err => {
+        if (err) reject(err);
+        else resolve();
+      }
+    );
+  });
+}
+
 export const getAllPullRequests = async () => {
+  await loadCache();
+  console.log('CACHE:', myCache);
   const repos = await getAllRepos(); 
   console.log('ALL REPOS:', repos);
 
-  return Promise.all(repos.map(async repoName =>  {
+  // data = [{
+  //   repoName: '',
+  //   prs: []
+  // }];
+  const data = await Promise.all(repos.map(async repoName =>  {
     const prs = await getAllPRs(repoName);
     
     return { repoName, prs };
   }));
 
-  // repos = [{
-  //   repoName: '',
-  //   prs: []
-  // }];
+  data.forEach(({ repoName, prs }) => {
+    prs.forEach(pr => {
+      pr.repoName = repoName;
+      myCache.prs[pr.id] = pr;
+    });
+  });
+
+  // console.log('cache:', myCache);
+  await saveCache();
+
+  return data;
 }
 
 export const getAllRepos = async () => {

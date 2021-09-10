@@ -1,0 +1,1997 @@
+{
+  "lastQueryTime": null,
+  "prs": {
+    "MDExOlB1bGxSZXF1ZXN0MjUyNDA0NDU=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MjUyNDA0NDU=",
+      "title": "update - license section with names from ramda.js",
+      "createdAt": "2014-11-30T22:05:42Z",
+      "closedAt": "2014-12-02T14:04:42Z",
+      "state": "MERGED",
+      "mergedAt": "2014-12-02T14:04:42Z",
+      "author": {
+        "login": "stites"
+      },
+      "repoName": "ramdangular"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MjUyNDAxOTI=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MjUyNDAxOTI=",
+      "title": "Update global reference from ramda to R",
+      "createdAt": "2014-11-30T21:46:36Z",
+      "closedAt": "2014-11-30T22:24:11Z",
+      "state": "MERGED",
+      "mergedAt": "2014-11-30T22:24:11Z",
+      "author": {
+        "login": "stites"
+      },
+      "repoName": "ramdangular"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NzA3NjgyODQz": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NzA3NjgyODQz",
+      "title": "Bump path-parse from 1.0.6 to 1.0.7",
+      "createdAt": "2021-08-10T20:37:45Z",
+      "closedAt": "2021-08-16T20:05:03Z",
+      "state": "MERGED",
+      "mergedAt": "2021-08-16T20:05:03Z",
+      "author": {
+        "login": "dependabot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NjMyMDEzMTk2": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NjMyMDEzMTk2",
+      "title": "Bump handlebars from 4.5.3 to 4.7.7",
+      "createdAt": "2021-05-06T22:54:48Z",
+      "closedAt": "2021-05-13T02:11:52Z",
+      "state": "MERGED",
+      "mergedAt": "2021-05-13T02:11:52Z",
+      "author": {
+        "login": "dependabot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTgzNTA1Nzg4": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTgzNTA1Nzg4",
+      "title": "Bump pug from 2.0.3 to 3.0.1",
+      "createdAt": "2021-03-03T02:44:51Z",
+      "closedAt": null,
+      "state": "OPEN",
+      "mergedAt": null,
+      "author": {
+        "login": "dependabot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTgzNDk0ODc0": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTgzNDk0ODc0",
+      "title": "Bump pug-code-gen from 2.0.1 to 2.0.3",
+      "createdAt": "2021-03-03T02:28:47Z",
+      "closedAt": "2021-03-03T22:35:11Z",
+      "state": "MERGED",
+      "mergedAt": "2021-03-03T22:35:11Z",
+      "author": {
+        "login": "dependabot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTgwMjUwNDM3": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTgwMjUwNDM3",
+      "title": "fixes repl loading ramda-fantasy types",
+      "createdAt": "2021-02-25T16:57:28Z",
+      "closedAt": "2021-02-25T17:26:31Z",
+      "state": "MERGED",
+      "mergedAt": "2021-02-25T17:26:31Z",
+      "author": {
+        "login": "cviejo"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDgwNjE1NzAw": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDgwNjE1NzAw",
+      "title": "Bump handlebars from 4.3.0 to 4.5.3",
+      "createdAt": "2020-09-05T23:20:55Z",
+      "closedAt": "2020-12-12T16:17:53Z",
+      "state": "MERGED",
+      "mergedAt": "2020-12-12T16:17:53Z",
+      "author": {
+        "login": "dependabot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDgwODk4MTU5": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDgwODk4MTU5",
+      "title": "Bump http-proxy from 1.17.0 to 1.18.1",
+      "createdAt": "2020-09-06T21:23:35Z",
+      "closedAt": "2020-12-12T16:17:29Z",
+      "state": "MERGED",
+      "mergedAt": "2020-12-12T16:17:29Z",
+      "author": {
+        "login": "dependabot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTMyNjc0NDIy": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTMyNjc0NDIy",
+      "title": "Bump highlight.js from 9.13.1 to 10.4.1",
+      "createdAt": "2020-12-04T17:24:19Z",
+      "closedAt": "2020-12-12T00:58:01Z",
+      "state": "MERGED",
+      "mergedAt": "2020-12-12T00:58:01Z",
+      "author": {
+        "login": "dependabot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTI2ODU0NTU1": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTI2ODU0NTU1",
+      "title": "Bump highlight.js from 9.13.1 to 10.1.2",
+      "createdAt": "2020-11-24T23:37:33Z",
+      "closedAt": "2020-12-04T17:24:22Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "dependabot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDk0OTAxNDY1": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDk0OTAxNDY1",
+      "title": "bump up repl version to 1.2.0 to use tinyurl for url shortening",
+      "createdAt": "2020-09-29T14:58:42Z",
+      "closedAt": "2020-09-29T22:56:22Z",
+      "state": "MERGED",
+      "mergedAt": "2020-09-29T22:56:21Z",
+      "author": {
+        "login": "zehua"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDkzMTI0Nzc1": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDkzMTI0Nzc1",
+      "title": "Change sanctuary source to one bundled with deps",
+      "createdAt": "2020-09-25T14:46:04Z",
+      "closedAt": "2020-09-29T23:18:47Z",
+      "state": "MERGED",
+      "mergedAt": "2020-09-29T23:18:47Z",
+      "author": {
+        "login": "juboba"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDkyNDU3MDU1": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDkyNDU3MDU1",
+      "title": "Change from 'bundle.run' to 'unpkg.com' for S and ramda-fantasy",
+      "createdAt": "2020-09-24T13:42:12Z",
+      "closedAt": "2020-09-24T15:34:55Z",
+      "state": "MERGED",
+      "mergedAt": "2020-09-24T15:34:55Z",
+      "author": {
+        "login": "juboba"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDg1MDY0NzUy": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDg1MDY0NzUy",
+      "title": "fix: global varible 'R' version",
+      "createdAt": "2020-09-11T13:18:36Z",
+      "closedAt": null,
+      "state": "OPEN",
+      "mergedAt": null,
+      "author": {
+        "login": "adispring"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDc5NzU3NzI2": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDc5NzU3NzI2",
+      "title": "Bump handlebars from 4.3.0 to 4.4.5",
+      "createdAt": "2020-09-04T14:47:57Z",
+      "closedAt": "2020-09-05T23:20:58Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "dependabot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDE1MzM5NTEw": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDE1MzM5NTEw",
+      "title": "Update mergeAll description",
+      "createdAt": "2020-05-08T17:18:30Z",
+      "closedAt": "2020-05-11T17:23:40Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "klequis"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTY0ODI4Njk2": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTY0ODI4Njk2",
+      "title": "transparent ico",
+      "createdAt": "2018-01-24T11:56:17Z",
+      "closedAt": "2018-09-14T15:48:30Z",
+      "state": "MERGED",
+      "mergedAt": "2018-09-14T15:48:30Z",
+      "author": {
+        "login": "8881"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0Mzg0MzgxOTA0": {
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzg0MzgxOTA0",
+      "title": "chore(docs): rename then to andThen",
+      "createdAt": "2020-03-05T16:38:45Z",
+      "closedAt": "2020-03-05T18:17:35Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "davidpicarra"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzEyMDk1NDc2": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzEyMDk1NDc2",
+      "title": "Correct includes version",
+      "createdAt": "2019-08-29T01:04:21Z",
+      "closedAt": "2020-02-16T10:50:04Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "jonlw"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzU3NTc5NTc3": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzU3NTc5NTc3",
+      "title": "Use https for Randy Coulman's Thinking in Ramda",
+      "createdAt": "2019-12-28T20:17:32Z",
+      "closedAt": "2019-12-29T19:35:11Z",
+      "state": "MERGED",
+      "mergedAt": "2019-12-29T19:35:11Z",
+      "author": {
+        "login": "randycoulman"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzQ1NDcwMTM0": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzQ1NDcwMTM0",
+      "title": "Bump bootstrap from 3.3.7 to 3.4.1 in /0.24.1",
+      "createdAt": "2019-11-25T23:37:20Z",
+      "closedAt": "2019-12-27T13:24:34Z",
+      "state": "MERGED",
+      "mergedAt": "2019-12-27T13:24:34Z",
+      "author": {
+        "login": "dependabot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzQ1NDcwMDcz": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzQ1NDcwMDcz",
+      "title": "Bump bootstrap from 3.3.7 to 3.4.1 in /0.24.0",
+      "createdAt": "2019-11-25T23:37:11Z",
+      "closedAt": "2019-12-27T13:24:55Z",
+      "state": "MERGED",
+      "mergedAt": "2019-12-27T13:24:55Z",
+      "author": {
+        "login": "dependabot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzQ1NDcwMTEy": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzQ1NDcwMTEy",
+      "title": "Bump bootstrap from 3.3.7 to 3.4.1 in /0.26.0",
+      "createdAt": "2019-11-25T23:37:17Z",
+      "closedAt": "2019-12-27T13:24:41Z",
+      "state": "MERGED",
+      "mergedAt": "2019-12-27T13:24:41Z",
+      "author": {
+        "login": "dependabot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzQ1NDcwMDk2": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzQ1NDcwMDk2",
+      "title": "Bump bootstrap from 3.3.7 to 3.4.1 in /0.23.0",
+      "createdAt": "2019-11-25T23:37:15Z",
+      "closedAt": "2019-12-27T13:24:48Z",
+      "state": "MERGED",
+      "mergedAt": "2019-12-27T13:24:48Z",
+      "author": {
+        "login": "dependabot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzU3MjMyNTEx": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzU3MjMyNTEx",
+      "title": "Bump handlebars from 4.0.12 to 4.3.0",
+      "createdAt": "2019-12-27T13:24:38Z",
+      "closedAt": "2019-12-27T13:25:35Z",
+      "state": "MERGED",
+      "mergedAt": "2019-12-27T13:25:35Z",
+      "author": {
+        "login": "dependabot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzQ1NDY5NjY5": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzQ1NDY5NjY5",
+      "title": "Bump bootstrap from 3.3.7 to 3.4.1",
+      "createdAt": "2019-11-25T23:35:42Z",
+      "closedAt": "2019-12-27T13:25:07Z",
+      "state": "MERGED",
+      "mergedAt": "2019-12-27T13:25:07Z",
+      "author": {
+        "login": "dependabot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzQ1NDY5Njcx": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzQ1NDY5Njcx",
+      "title": "Bump handlebars from 4.0.12 to 4.1.2",
+      "createdAt": "2019-11-25T23:35:42Z",
+      "closedAt": "2019-12-27T13:24:41Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "dependabot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzQ1NDcwMzMx": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzQ1NDcwMzMx",
+      "title": "Bump bootstrap from 3.3.7 to 3.4.1 in /0.25.0",
+      "createdAt": "2019-11-25T23:38:06Z",
+      "closedAt": "2019-12-27T13:24:05Z",
+      "state": "MERGED",
+      "mergedAt": "2019-12-27T13:24:05Z",
+      "author": {
+        "login": "dependabot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MjYxNzMzNzM0": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MjYxNzMzNzM0",
+      "title": "Update RunKit integration to use theme API",
+      "createdAt": "2019-03-16T00:37:29Z",
+      "closedAt": "2019-03-16T02:25:07Z",
+      "state": "MERGED",
+      "mergedAt": "2019-03-16T02:25:07Z",
+      "author": {
+        "login": "tolmasky"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzQ0MjcyODQy": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzQ0MjcyODQy",
+      "title": "Add Either and Maybe to RunKit embeds",
+      "createdAt": "2019-11-21T22:58:59Z",
+      "closedAt": "2019-11-25T23:35:12Z",
+      "state": "MERGED",
+      "mergedAt": "2019-11-25T23:35:12Z",
+      "author": {
+        "login": "tolmasky"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0OTQ1MTY2Mzk=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0OTQ1MTY2Mzk=",
+      "title": "Add hack to fix navbar blocking docs content",
+      "createdAt": "2016-11-20T12:39:17Z",
+      "closedAt": "2016-11-27T13:29:13Z",
+      "state": "MERGED",
+      "mergedAt": "2016-11-27T13:29:13Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzI1MzUyOTQ4": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzI1MzUyOTQ4",
+      "title": "Adding link to portuguese(BR) translation.",
+      "createdAt": "2019-10-07T15:09:31Z",
+      "closedAt": "2019-11-25T20:47:54Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "renansj"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzM5NDA0NTI2": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzM5NDA0NTI2",
+      "title": "Add facebook link to share link in REPL ",
+      "createdAt": "2019-11-11T12:14:50Z",
+      "closedAt": "2019-11-11T19:05:24Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "IMHOJEONG"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0OTE3NTc4MjY=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0OTE3NTc4MjY=",
+      "title": "Add map example, and couple of TODOs",
+      "createdAt": "2016-11-01T10:02:15Z",
+      "closedAt": null,
+      "state": "OPEN",
+      "mergedAt": null,
+      "author": {
+        "login": "jigargosar"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MjM3MTE3NTk0": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MjM3MTE3NTk0",
+      "title": "REPL: replace wizrd.in with bundle.run",
+      "createdAt": "2018-12-09T08:56:50Z",
+      "closedAt": "2018-12-09T18:42:48Z",
+      "state": "MERGED",
+      "mergedAt": "2018-12-09T18:42:48Z",
+      "author": {
+        "login": "craigdallimore"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MjM3MDg4Mjgy": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MjM3MDg4Mjgy",
+      "title": "RawGit is shutting down, replace it with jsDelivr",
+      "createdAt": "2018-12-08T19:59:30Z",
+      "closedAt": null,
+      "state": "OPEN",
+      "mergedAt": null,
+      "author": {
+        "login": "jsdelivrbot"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTk0NTUzNjEy": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTk0NTUzNjEy",
+      "title": "adding similar omit/pick to see also on dissoc/assoc",
+      "createdAt": "2018-06-13T11:23:45Z",
+      "closedAt": "2018-06-28T03:56:19Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "matthewdaniel"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTg5MTE4NjM2": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTg5MTE4NjM2",
+      "title": "Serving logo over HTTPS",
+      "createdAt": "2018-05-18T19:47:26Z",
+      "closedAt": "2018-05-18T19:47:38Z",
+      "state": "MERGED",
+      "mergedAt": "2018-05-18T19:47:38Z",
+      "author": {
+        "login": "CrossEye"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTg5MTAxODI5": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTg5MTAxODI5",
+      "title": "Adding local copy of logo for SSL compliance",
+      "createdAt": "2018-05-18T18:28:39Z",
+      "closedAt": "2018-05-18T18:28:56Z",
+      "state": "MERGED",
+      "mergedAt": "2018-05-18T18:28:56Z",
+      "author": {
+        "login": "CrossEye"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTgxNjkyNTI0": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTgxNjkyNTI0",
+      "title": "This addresses #176",
+      "createdAt": "2018-04-15T10:52:33Z",
+      "closedAt": null,
+      "state": "OPEN",
+      "mergedAt": null,
+      "author": {
+        "login": "Klortho"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTc2OTU4MjMw": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTc2OTU4MjMw",
+      "title": "mapObjIndexed - Update code example",
+      "createdAt": "2018-03-23T02:28:15Z",
+      "closedAt": "2018-03-26T12:06:30Z",
+      "state": "MERGED",
+      "mergedAt": "2018-03-26T12:06:30Z",
+      "author": {
+        "login": "GCrispino"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTYwMTY0NjMz": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTYwMTY0NjMz",
+      "title": "fix: Disable autocompletion for the search input in Safari",
+      "createdAt": "2017-12-26T20:25:09Z",
+      "closedAt": "2017-12-27T13:12:59Z",
+      "state": "MERGED",
+      "mergedAt": "2017-12-27T13:12:59Z",
+      "author": {
+        "login": "okonet"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTQ1OTM3OTYz": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTQ1OTM3OTYz",
+      "title": "Fixing source-code links (Closes #197)",
+      "createdAt": "2017-10-11T12:41:43Z",
+      "closedAt": "2017-10-11T14:28:38Z",
+      "state": "MERGED",
+      "mergedAt": "2017-10-11T14:28:38Z",
+      "author": {
+        "login": "CrossEye"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTUzMzY4NTcz": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTUzMzY4NTcz",
+      "title": "Revert \"Revert \"Support versioning of ramda-repl js file\"\"",
+      "createdAt": "2017-11-17T18:52:57Z",
+      "closedAt": "2017-11-17T19:26:18Z",
+      "state": "MERGED",
+      "mergedAt": "2017-11-17T19:26:18Z",
+      "author": {
+        "login": "zehua"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTQyODkyMDk1": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTQyODkyMDk1",
+      "title": "Fixed interference of css style from docs page to repl",
+      "createdAt": "2017-09-25T14:06:40Z",
+      "closedAt": "2017-11-17T16:49:13Z",
+      "state": "MERGED",
+      "mergedAt": "2017-11-17T16:49:13Z",
+      "author": {
+        "login": "zehua"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTQ2MDg3ODkz": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTQ2MDg3ODkz",
+      "title": "Fixed docs",
+      "createdAt": "2017-10-11T23:47:20Z",
+      "closedAt": "2017-10-13T20:35:00Z",
+      "state": "MERGED",
+      "mergedAt": "2017-10-13T20:34:59Z",
+      "author": {
+        "login": "Andarist"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTQ1NzU4MDE1": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTQ1NzU4MDE1",
+      "title": "v0.25.0",
+      "createdAt": "2017-10-10T17:47:08Z",
+      "closedAt": "2017-10-10T21:28:40Z",
+      "state": "MERGED",
+      "mergedAt": "2017-10-10T21:28:40Z",
+      "author": {
+        "login": "kedashoe"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTQyNzk1MDU3": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTQyNzk1MDU3",
+      "title": "Support versioning of ramda-repl js file",
+      "createdAt": "2017-09-25T04:46:39Z",
+      "closedAt": "2017-10-04T02:22:20Z",
+      "state": "MERGED",
+      "mergedAt": "2017-10-04T02:22:20Z",
+      "author": {
+        "login": "zehua"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTQ0NTc0MjMz": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTQ0NTc0MjMz",
+      "title": "Revert \"Support versioning of ramda-repl js file\"",
+      "createdAt": "2017-10-04T03:13:25Z",
+      "closedAt": "2017-10-04T03:13:40Z",
+      "state": "MERGED",
+      "mergedAt": "2017-10-04T03:13:40Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTQ0MDQxOTA5": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTQ0MDQxOTA5",
+      "title": "search and filtering improvements (also fixes #188)",
+      "createdAt": "2017-09-30T19:50:47Z",
+      "closedAt": null,
+      "state": "OPEN",
+      "mergedAt": null,
+      "author": {
+        "login": "remmythical"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTQzOTk0Nzkz": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTQzOTk0Nzkz",
+      "title": "search and filtering improvements (also fixes #188)",
+      "createdAt": "2017-09-29T22:43:53Z",
+      "closedAt": "2017-09-30T19:51:16Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "remmythical"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTQyNzkzODQ5": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTQyNzkzODQ5",
+      "title": "Added hint for node version min requirement",
+      "createdAt": "2017-09-25T04:29:03Z",
+      "closedAt": "2017-09-25T12:23:29Z",
+      "state": "MERGED",
+      "mergedAt": "2017-09-25T12:23:29Z",
+      "author": {
+        "login": "zehua"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTI5MDY4MTA5": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTI5MDY4MTA5",
+      "title": "fix examples so REPL won't break",
+      "createdAt": "2017-07-05T22:25:57Z",
+      "closedAt": "2017-07-26T11:57:17Z",
+      "state": "MERGED",
+      "mergedAt": "2017-07-26T11:57:17Z",
+      "author": {
+        "login": "ivanzusko"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTI4ODM5NzM2": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTI4ODM5NzM2",
+      "title": "Inline runnable examples with RunKit",
+      "createdAt": "2017-07-04T17:16:19Z",
+      "closedAt": "2017-07-18T00:00:23Z",
+      "state": "MERGED",
+      "mergedAt": "2017-07-18T00:00:23Z",
+      "author": {
+        "login": "tolmasky"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTI3NzM0MjA4": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTI3NzM0MjA4",
+      "title": "tryInREPL open in separate tab",
+      "createdAt": "2017-06-27T16:10:12Z",
+      "closedAt": "2017-06-28T17:02:13Z",
+      "state": "MERGED",
+      "mergedAt": "2017-06-28T17:02:13Z",
+      "author": {
+        "login": "ivanzusko"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTIzNjQyODg2": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTIzNjQyODg2",
+      "title": "v0.24.1",
+      "createdAt": "2017-06-02T05:09:40Z",
+      "closedAt": "2017-06-02T05:12:48Z",
+      "state": "MERGED",
+      "mergedAt": "2017-06-02T05:12:48Z",
+      "author": {
+        "login": "kedashoe"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTIyNzgyNjA2": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTIyNzgyNjA2",
+      "title": "re-run build to get rid of _isArrayLike",
+      "createdAt": "2017-05-28T03:54:11Z",
+      "closedAt": "2017-05-28T03:54:36Z",
+      "state": "MERGED",
+      "mergedAt": "2017-05-28T03:54:36Z",
+      "author": {
+        "login": "kedashoe"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTIyNzcyMDE1": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTIyNzcyMDE1",
+      "title": "0.24 docs; works on my machine",
+      "createdAt": "2017-05-27T19:32:54Z",
+      "closedAt": "2017-05-28T02:40:28Z",
+      "state": "MERGED",
+      "mergedAt": "2017-05-28T02:40:28Z",
+      "author": {
+        "login": "buzzdecafe"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTA3ODE2ODM3": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTA3ODE2ODM3",
+      "title": "Load Ramda Fantasy and Sanctuary scripts again",
+      "createdAt": "2017-02-24T11:57:22Z",
+      "closedAt": "2017-05-27T21:13:59Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "ahstro"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTIwNDQ0ODgw": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTIwNDQ0ODgw",
+      "title": "Update Pug templates",
+      "createdAt": "2017-05-13T11:18:08Z",
+      "closedAt": "2017-05-14T13:29:57Z",
+      "state": "MERGED",
+      "mergedAt": "2017-05-14T13:29:57Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTAyNTc3ODc4": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTAyNTc3ODc4",
+      "title": "Use Pug templates for index and releases pages",
+      "createdAt": "2017-01-21T10:13:52Z",
+      "closedAt": "2017-03-23T00:42:10Z",
+      "state": "MERGED",
+      "mergedAt": "2017-03-23T00:42:10Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTEyMjc5NTU0": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTEyMjc5NTU0",
+      "title": "Made behaviour of `all` with an empty list clearer",
+      "createdAt": "2017-03-23T16:22:44Z",
+      "closedAt": "2017-03-23T16:55:40Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "lottec"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0OTI4OTE3NTQ=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0OTI4OTE3NTQ=",
+      "title": "Enable loading of external scripts",
+      "createdAt": "2016-11-09T01:23:35Z",
+      "closedAt": "2017-03-20T19:58:03Z",
+      "state": "MERGED",
+      "mergedAt": "2017-03-20T19:58:03Z",
+      "author": {
+        "login": "bijoythomas"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTAwNzQ5NTE4": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTAwNzQ5NTE4",
+      "title": "Modern syntax",
+      "createdAt": "2017-01-09T19:55:45Z",
+      "closedAt": "2017-01-20T20:46:06Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "vkhv"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MTAwODIxODE4": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MTAwODIxODE4",
+      "title": "Wangzengdi",
+      "createdAt": "2017-01-10T07:15:12Z",
+      "closedAt": "2017-01-10T07:31:44Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "adispring"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0OTk3MjA4MTU=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0OTk3MjA4MTU=",
+      "title": "Add margin+padding hack for heading links",
+      "createdAt": "2016-12-30T04:03:39Z",
+      "closedAt": null,
+      "state": "OPEN",
+      "mergedAt": null,
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0OTI1NjMyNjE=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0OTI1NjMyNjE=",
+      "title": "add some print styles",
+      "createdAt": "2016-11-07T11:07:48Z",
+      "closedAt": null,
+      "state": "OPEN",
+      "mergedAt": null,
+      "author": {
+        "login": "bjdixon"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0OTIyNDQxNzA=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0OTIyNDQxNzA=",
+      "title": "stop loading external script for now",
+      "createdAt": "2016-11-03T21:30:01Z",
+      "closedAt": "2016-11-04T00:04:53Z",
+      "state": "MERGED",
+      "mergedAt": "2016-11-04T00:04:53Z",
+      "author": {
+        "login": "buzzdecafe"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NjYyNjg2ODU=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NjYyNjg2ODU=",
+      "title": "Show each param type name",
+      "createdAt": "2016-04-13T05:46:47Z",
+      "closedAt": "2016-09-10T15:02:39Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-10T15:02:39Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODg2MTQ0Nzc=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODg2MTQ0Nzc=",
+      "title": "Convert publish.js to Ramda functions",
+      "createdAt": "2016-10-10T06:30:59Z",
+      "closedAt": "2016-10-18T00:28:15Z",
+      "state": "MERGED",
+      "mergedAt": "2016-10-18T00:28:15Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NzYwODIzNDE=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NzYwODIzNDE=",
+      "title": "Move README handlebars template",
+      "createdAt": "2016-07-03T06:42:54Z",
+      "closedAt": "2016-09-03T13:06:03Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-03T13:06:03Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODM5MDEyNjQ=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODM5MDEyNjQ=",
+      "title": "Add releases script and page",
+      "createdAt": "2016-09-03T17:40:47Z",
+      "closedAt": "2016-09-04T11:26:07Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-04T11:26:07Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODM5MTM0NjE=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODM5MTM0NjE=",
+      "title": "Add make release script and notes to README",
+      "createdAt": "2016-09-04T04:46:25Z",
+      "closedAt": "2016-09-10T14:37:30Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-10T14:37:30Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODQ3NTUxNTQ=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODQ3NTUxNTQ=",
+      "title": "Update less to 2.7",
+      "createdAt": "2016-09-10T13:13:43Z",
+      "closedAt": "2016-09-10T13:22:23Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-10T13:22:23Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODQ3NTg1NDg=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODQ3NTg1NDg=",
+      "title": "Fix ramda version in jsdoc publish.js",
+      "createdAt": "2016-09-10T15:23:52Z",
+      "closedAt": "2016-09-10T15:43:21Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-10T15:43:21Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODU1NjUxMzY=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODU1NjUxMzY=",
+      "title": "Replace redirect on index.html with README content",
+      "createdAt": "2016-09-16T12:32:11Z",
+      "closedAt": "2016-09-20T20:30:12Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-20T20:30:12Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODgyNDI3NDc=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODgyNDI3NDc=",
+      "title": "Remove manual from version folders",
+      "createdAt": "2016-10-06T11:19:25Z",
+      "closedAt": "2016-10-07T10:08:32Z",
+      "state": "MERGED",
+      "mergedAt": "2016-10-07T10:08:31Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0OTAxNDgyMDI=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0OTAxNDgyMDI=",
+      "title": "Update readme",
+      "createdAt": "2016-10-20T07:43:19Z",
+      "closedAt": "2016-10-21T10:33:07Z",
+      "state": "MERGED",
+      "mergedAt": "2016-10-21T10:33:07Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0OTAzNzIyNDQ=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0OTAzNzIyNDQ=",
+      "title": "Update dev dependencies",
+      "createdAt": "2016-10-21T12:07:42Z",
+      "closedAt": "2016-10-21T12:17:28Z",
+      "state": "MERGED",
+      "mergedAt": "2016-10-21T12:17:28Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0OTAzNzMwODY=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0OTAzNzMwODY=",
+      "title": "Add gitbook npm script",
+      "createdAt": "2016-10-21T12:15:09Z",
+      "closedAt": "2016-10-21T13:12:58Z",
+      "state": "MERGED",
+      "mergedAt": "2016-10-21T13:12:58Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0OTA1MTY5Mzk=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0OTA1MTY5Mzk=",
+      "title": "Remove old, unused jsdoc publish.js",
+      "createdAt": "2016-10-23T14:20:38Z",
+      "closedAt": "2016-10-23T20:48:58Z",
+      "state": "MERGED",
+      "mergedAt": "2016-10-23T20:48:58Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0OTA1NDkyMzU=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0OTA1NDkyMzU=",
+      "title": "Fix try in REPL link in docs",
+      "createdAt": "2016-10-24T04:51:08Z",
+      "closedAt": "2016-10-24T12:47:56Z",
+      "state": "MERGED",
+      "mergedAt": "2016-10-24T12:47:56Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0OTA0ODU5MTk=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0OTA0ODU5MTk=",
+      "title": "Add Gitter to navbar and pull external links right",
+      "createdAt": "2016-10-22T15:45:50Z",
+      "closedAt": "2016-10-27T14:17:04Z",
+      "state": "MERGED",
+      "mergedAt": "2016-10-27T14:17:04Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0OTEyMDYyMjI=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0OTEyMDYyMjI=",
+      "title": "Add symb to publish.js",
+      "createdAt": "2016-10-27T13:58:40Z",
+      "closedAt": null,
+      "state": "OPEN",
+      "mergedAt": null,
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NjY3OTA5NDI=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NjY3OTA5NDI=",
+      "title": "Add download ramda.js script",
+      "createdAt": "2016-04-18T02:11:58Z",
+      "closedAt": "2016-06-30T17:23:53Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0OTExODgwNzg=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0OTExODgwNzg=",
+      "title": "Remove unused symb section from docs page",
+      "createdAt": "2016-10-27T12:12:49Z",
+      "closedAt": null,
+      "state": "OPEN",
+      "mergedAt": null,
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0OTEyMDI2MzI=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0OTEyMDI2MzI=",
+      "title": "Remove ramdocs redirects",
+      "createdAt": "2016-10-27T13:39:22Z",
+      "closedAt": "2016-10-27T13:41:11Z",
+      "state": "MERGED",
+      "mergedAt": "2016-10-27T13:41:11Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0OTA1OTUzNzU=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0OTA1OTUzNzU=",
+      "title": "Fixes #144",
+      "createdAt": "2016-10-24T11:38:04Z",
+      "closedAt": "2016-10-24T11:58:35Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "buzzdecafe"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0OTAzNjUzNDM=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0OTAzNjUzNDM=",
+      "title": "Add Gitter Sidecar to home page",
+      "createdAt": "2016-10-21T11:10:40Z",
+      "closedAt": "2016-10-22T15:08:34Z",
+      "state": "MERGED",
+      "mergedAt": "2016-10-22T15:08:34Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODk5NTYxNDQ=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODk5NTYxNDQ=",
+      "title": "Replace REPL",
+      "createdAt": "2016-10-19T07:37:03Z",
+      "closedAt": "2016-10-21T00:26:28Z",
+      "state": "MERGED",
+      "mergedAt": "2016-10-21T00:26:28Z",
+      "author": {
+        "login": "craigdallimore"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODc2MzcwMjc=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODc2MzcwMjc=",
+      "title": "Closes #100, link to gitter",
+      "createdAt": "2016-10-02T15:36:24Z",
+      "closedAt": "2016-10-05T19:31:22Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "buzzdecafe"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODg3NzQ3MzE=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODg3NzQ3MzE=",
+      "title": "Update styles",
+      "createdAt": "2016-10-11T05:53:07Z",
+      "closedAt": "2016-10-11T22:45:56Z",
+      "state": "MERGED",
+      "mergedAt": "2016-10-11T22:45:56Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODc2Mzk3NDU=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODc2Mzk3NDU=",
+      "title": "Replace repl",
+      "createdAt": "2016-10-02T17:12:11Z",
+      "closedAt": "2016-10-03T23:41:02Z",
+      "state": "MERGED",
+      "mergedAt": "2016-10-03T23:41:02Z",
+      "author": {
+        "login": "craigdallimore"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODc4MTIzNjk=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODc4MTIzNjk=",
+      "title": "Revert \"Replace repl\"",
+      "createdAt": "2016-10-03T23:47:39Z",
+      "closedAt": "2016-10-03T23:47:48Z",
+      "state": "MERGED",
+      "mergedAt": "2016-10-03T23:47:48Z",
+      "author": {
+        "login": "buzzdecafe"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODcxNTIwMjI=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODcxNTIwMjI=",
+      "title": "Remove wzrd.in dependencies",
+      "createdAt": "2016-09-28T16:14:05Z",
+      "closedAt": "2016-09-30T23:28:49Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "craigdallimore"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODU4NTI1NzM=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODU4NTI1NzM=",
+      "title": "Improve scrolling on mobile",
+      "createdAt": "2016-09-19T19:18:20Z",
+      "closedAt": "2016-09-20T20:31:56Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-20T20:31:56Z",
+      "author": {
+        "login": "stevenbenisek"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODU4NDE1NDM=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODU4NDE1NDM=",
+      "title": "Missing vendor prefixes ",
+      "createdAt": "2016-09-19T18:07:39Z",
+      "closedAt": "2016-09-20T20:31:18Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-20T20:31:18Z",
+      "author": {
+        "login": "stevenbenisek"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODU4MzI5Nzc=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODU4MzI5Nzc=",
+      "title": "Optimize hamburger SVG data URI: fixes ramda/ramda.github.io#120",
+      "createdAt": "2016-09-19T17:11:49Z",
+      "closedAt": "2016-09-19T17:32:39Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-19T17:32:39Z",
+      "author": {
+        "login": "stevenbenisek"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0Njc2NDU2MzE=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0Njc2NDU2MzE=",
+      "title": "Issue #78 - Cookbook Prototype ",
+      "createdAt": "2016-04-24T18:35:03Z",
+      "closedAt": null,
+      "state": "OPEN",
+      "mergedAt": null,
+      "author": {
+        "login": "taylonr"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODQ3ODA0NTY=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODQ3ODA0NTY=",
+      "title": "Color output for \"Try Ramda\"",
+      "createdAt": "2016-09-11T08:30:12Z",
+      "closedAt": "2016-09-13T22:13:56Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-13T22:13:56Z",
+      "author": {
+        "login": "craigdallimore"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODI4NTIzNDY=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODI4NTIzNDY=",
+      "title": "REPL: Get code param from hash part of URL",
+      "createdAt": "2016-08-26T08:47:52Z",
+      "closedAt": "2016-09-10T14:52:42Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-10T14:52:42Z",
+      "author": {
+        "login": "fix-fix"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODQ3NTQxNzA=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODQ3NTQxNzA=",
+      "title": "Add 'pretty output' button",
+      "createdAt": "2016-09-10T12:26:53Z",
+      "closedAt": "2016-09-10T15:03:29Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-10T15:03:29Z",
+      "author": {
+        "login": "craigdallimore"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODQ3NTg5MzE=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODQ3NTg5MzE=",
+      "title": "Include prettification in bundled js ... up to date",
+      "createdAt": "2016-09-10T15:37:46Z",
+      "closedAt": "2016-09-10T15:40:03Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-10T15:40:03Z",
+      "author": {
+        "login": "craigdallimore"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODQ3NTU2MjE=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODQ3NTU2MjE=",
+      "title": "Fix #96 Ensure codemirror is full height",
+      "createdAt": "2016-09-10T13:34:05Z",
+      "closedAt": "2016-09-10T14:35:23Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-10T14:35:23Z",
+      "author": {
+        "login": "craigdallimore"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODM5MTkzNDQ=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODM5MTkzNDQ=",
+      "title": "Don't copy docs main.js to index directory",
+      "createdAt": "2016-09-04T10:42:39Z",
+      "closedAt": "2016-09-04T11:24:12Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-04T11:24:12Z",
+      "author": {
+        "login": "fix-fix"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODM4OTg5MzI=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODM4OTg5MzI=",
+      "title": "Remove duplicate, unused main.js",
+      "createdAt": "2016-09-03T15:58:28Z",
+      "closedAt": "2016-09-03T20:03:11Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-03T20:03:11Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NjU5NDIxNTk=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NjU5NDIxNTk=",
+      "title": "Update version to 0.21.0 in package.json",
+      "createdAt": "2016-04-11T05:33:03Z",
+      "closedAt": "2016-09-03T15:34:54Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODM4OTQ2MzI=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODM4OTQ2MzI=",
+      "title": "Set ramda dependency to 0.22.1",
+      "createdAt": "2016-09-03T12:36:25Z",
+      "closedAt": "2016-09-03T12:41:22Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-03T12:41:22Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NzYwODMxOTE=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NzYwODMxOTE=",
+      "title": "Add copy to version folder script",
+      "createdAt": "2016-07-03T07:41:55Z",
+      "closedAt": "2016-09-03T14:25:20Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-03T14:25:20Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NzYwODM3Mjk=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NzYwODM3Mjk=",
+      "title": "Add make index.html script",
+      "createdAt": "2016-07-03T08:18:25Z",
+      "closedAt": "2016-09-03T13:07:48Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-03T13:07:48Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NzYwODI1ODk=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NzYwODI1ODk=",
+      "title": "Add copy ramda.js script",
+      "createdAt": "2016-07-03T07:01:35Z",
+      "closedAt": "2016-09-03T12:48:05Z",
+      "state": "MERGED",
+      "mergedAt": "2016-09-03T12:48:05Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0ODAzNDE2ODc=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0ODAzNDE2ODc=",
+      "title": "adds-symbols - initial commit",
+      "createdAt": "2016-08-06T14:41:08Z",
+      "closedAt": "2016-08-15T19:47:59Z",
+      "state": "MERGED",
+      "mergedAt": "2016-08-15T19:47:59Z",
+      "author": {
+        "login": "thurt"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0Nzk0NjI4NjY=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0Nzk0NjI4NjY=",
+      "title": "Small fixes to last two immutability code snippets",
+      "createdAt": "2016-07-30T17:22:06Z",
+      "closedAt": "2016-07-30T17:57:18Z",
+      "state": "MERGED",
+      "mergedAt": "2016-07-30T17:57:18Z",
+      "author": {
+        "login": "walkermatt"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NzQwNDA0ODg=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NzQwNDA0ODg=",
+      "title": "Add ramda 0.21.0 dev dependency",
+      "createdAt": "2016-06-16T08:27:51Z",
+      "closedAt": "2016-06-30T17:21:43Z",
+      "state": "MERGED",
+      "mergedAt": "2016-06-30T17:21:43Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NzU5MDQ0Njg=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NzU5MDQ0Njg=",
+      "title": "fix CDN links",
+      "createdAt": "2016-06-30T23:02:15Z",
+      "closedAt": "2016-07-01T01:35:19Z",
+      "state": "MERGED",
+      "mergedAt": "2016-07-01T01:35:19Z",
+      "author": {
+        "login": "davidchambers"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NzU4MTIxMjc=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NzU4MTIxMjc=",
+      "title": "Move fonts to top level",
+      "createdAt": "2016-06-30T12:40:37Z",
+      "closedAt": "2016-06-30T13:05:18Z",
+      "state": "MERGED",
+      "mergedAt": "2016-06-30T13:05:18Z",
+      "author": {
+        "login": "wmonk"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NzIxMDkzODU=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NzIxMDkzODU=",
+      "title": "Larger code viewing area",
+      "createdAt": "2016-06-01T01:10:31Z",
+      "closedAt": "2016-06-27T04:48:17Z",
+      "state": "MERGED",
+      "mergedAt": "2016-06-27T04:48:17Z",
+      "author": {
+        "login": "thurt"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NzI2NjI1MzE=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NzI2NjI1MzE=",
+      "title": "Resolves ramda/#1789",
+      "createdAt": "2016-06-06T06:45:29Z",
+      "closedAt": "2016-06-07T10:23:27Z",
+      "state": "MERGED",
+      "mergedAt": "2016-06-07T10:23:27Z",
+      "author": {
+        "login": "thurt"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NzA5ODk5NDM=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NzA5ODk5NDM=",
+      "title": "Add note on changing ports",
+      "createdAt": "2016-05-22T22:04:11Z",
+      "closedAt": "2016-05-22T22:59:37Z",
+      "state": "MERGED",
+      "mergedAt": "2016-05-22T22:59:37Z",
+      "author": {
+        "login": "stites"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0Njg3OTU5Mzk=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0Njg3OTU5Mzk=",
+      "title": "Fixes #80 Visual bug -- overflow <li> bounding box when name is too long",
+      "createdAt": "2016-05-04T00:19:54Z",
+      "closedAt": "2016-05-04T00:26:16Z",
+      "state": "MERGED",
+      "mergedAt": "2016-05-04T00:26:16Z",
+      "author": {
+        "login": "thurt"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTY1MjUxODA=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTY1MjUxODA=",
+      "title": "repl: remove \"reset\" button",
+      "createdAt": "2016-01-19T21:03:41Z",
+      "closedAt": "2016-05-03T18:13:29Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "davidchambers"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NjAwMzk4NDM=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NjAwMzk4NDM=",
+      "title": "Remove kateproject",
+      "createdAt": "2016-02-20T06:30:48Z",
+      "closedAt": "2016-02-20T17:07:35Z",
+      "state": "MERGED",
+      "mergedAt": "2016-02-20T17:07:35Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NjI1NDUyODk=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NjI1NDUyODk=",
+      "title": "Move jsdoc files",
+      "createdAt": "2016-03-11T13:50:59Z",
+      "closedAt": "2016-04-11T04:54:17Z",
+      "state": "MERGED",
+      "mergedAt": "2016-04-11T04:54:17Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NjUyMTkxNTU=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NjUyMTkxNTU=",
+      "title": "respect requested version in querystring",
+      "createdAt": "2016-04-04T21:51:10Z",
+      "closedAt": "2016-04-07T12:19:05Z",
+      "state": "MERGED",
+      "mergedAt": "2016-04-07T12:19:05Z",
+      "author": {
+        "login": "buzzdecafe"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NjQyNDc2NDc=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NjQyNDc2NDc=",
+      "title": "0.20.0 docs",
+      "createdAt": "2016-03-26T20:09:50Z",
+      "closedAt": "2016-03-26T20:10:26Z",
+      "state": "MERGED",
+      "mergedAt": "2016-03-26T20:10:26Z",
+      "author": {
+        "login": "buzzdecafe"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NjM0MDE1NzU=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NjM0MDE1NzU=",
+      "title": "append is already taken and will not work in REPL",
+      "createdAt": "2016-03-18T16:34:43Z",
+      "closedAt": "2016-03-18T16:51:16Z",
+      "state": "MERGED",
+      "mergedAt": "2016-03-18T16:51:16Z",
+      "author": {
+        "login": "GantMan"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NjI5MjUxMzE=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NjI5MjUxMzE=",
+      "title": "updated createMapEntry to objOf",
+      "createdAt": "2016-03-15T15:31:50Z",
+      "closedAt": "2016-03-15T16:02:15Z",
+      "state": "MERGED",
+      "mergedAt": "2016-03-15T16:02:15Z",
+      "author": {
+        "login": "davidchase"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTgxOTEyMDA=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTgxOTEyMDA=",
+      "title": "Expose ramda functions as default on window",
+      "createdAt": "2016-02-03T19:55:10Z",
+      "closedAt": "2016-02-24T14:07:06Z",
+      "state": "MERGED",
+      "mergedAt": "2016-02-24T14:07:06Z",
+      "author": {
+        "login": "edmulraney"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NjAzMDQyNTM=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NjAzMDQyNTM=",
+      "title": "Remove .directory and .kateproject",
+      "createdAt": "2016-02-23T08:32:12Z",
+      "closedAt": "2016-02-24T12:38:20Z",
+      "state": "MERGED",
+      "mergedAt": "2016-02-24T12:38:20Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NjAzMDU5OTU=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NjAzMDU5OTU=",
+      "title": "Focus filter input when / pressed",
+      "createdAt": "2016-02-23T08:49:29Z",
+      "closedAt": "2016-02-23T21:34:24Z",
+      "state": "MERGED",
+      "mergedAt": "2016-02-23T21:34:24Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTk3MTA4MDE=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTk3MTA4MDE=",
+      "title": "fixes #42; back-button hack",
+      "createdAt": "2016-02-17T21:22:13Z",
+      "closedAt": "2016-02-17T22:32:02Z",
+      "state": "MERGED",
+      "mergedAt": "2016-02-17T22:32:02Z",
+      "author": {
+        "login": "buzzdecafe"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTc3ODM0MDU=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTc3ODM0MDU=",
+      "title": "Expose ramda functions as default on window",
+      "createdAt": "2016-01-31T22:55:47Z",
+      "closedAt": "2016-02-07T20:46:52Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "edmulraney"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTYzOTkwMTE=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTYzOTkwMTE=",
+      "title": "Fixes #48: wire up reset button",
+      "createdAt": "2016-01-18T22:28:02Z",
+      "closedAt": "2016-02-07T20:45:31Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "buzzdecafe"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTg1MzAyMDg=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTg1MzAyMDg=",
+      "title": "several fixes",
+      "createdAt": "2016-02-06T21:01:11Z",
+      "closedAt": "2016-02-07T04:00:51Z",
+      "state": "MERGED",
+      "mergedAt": "2016-02-07T04:00:51Z",
+      "author": {
+        "login": "davidchase"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTc4MjUyNDQ=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTc4MjUyNDQ=",
+      "title": "Fix REPL link on REPL page in navbar",
+      "createdAt": "2016-02-01T11:09:42Z",
+      "closedAt": "2016-02-01T14:19:25Z",
+      "state": "MERGED",
+      "mergedAt": "2016-02-01T14:19:25Z",
+      "author": {
+        "login": "fix-fix"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTc3MzIyMjk=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTc3MzIyMjk=",
+      "title": "Add EditorConfig",
+      "createdAt": "2016-01-30T06:32:06Z",
+      "closedAt": "2016-01-30T13:32:09Z",
+      "state": "MERGED",
+      "mergedAt": "2016-01-30T13:32:09Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTcxNjkxODM=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTcxNjkxODM=",
+      "title": "Add http-server with npm script",
+      "createdAt": "2016-01-26T04:32:24Z",
+      "closedAt": "2016-01-30T05:02:02Z",
+      "state": "MERGED",
+      "mergedAt": "2016-01-30T05:02:02Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTc2MDU5MDA=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTc2MDU5MDA=",
+      "title": "Fix chapter 3 link on small functions page",
+      "createdAt": "2016-01-29T04:47:16Z",
+      "closedAt": "2016-01-29T15:45:30Z",
+      "state": "MERGED",
+      "mergedAt": "2016-01-29T15:45:30Z",
+      "author": {
+        "login": "MattMS"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTYyOTE1Njg=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTYyOTE1Njg=",
+      "title": "try in repl update",
+      "createdAt": "2016-01-17T23:53:21Z",
+      "closedAt": "2016-01-20T18:20:12Z",
+      "state": "MERGED",
+      "mergedAt": "2016-01-20T18:20:12Z",
+      "author": {
+        "login": "davidchase"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTYyNzEyNDc=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTYyNzEyNDc=",
+      "title": "updated repl and added try in repl in docs",
+      "createdAt": "2016-01-17T06:06:28Z",
+      "closedAt": "2016-01-17T21:18:15Z",
+      "state": "MERGED",
+      "mergedAt": "2016-01-17T21:18:15Z",
+      "author": {
+        "login": "davidchase"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTYyODk3MjU=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTYyODk3MjU=",
+      "title": "update shortlink path",
+      "createdAt": "2016-01-17T22:38:03Z",
+      "closedAt": "2016-01-17T22:42:13Z",
+      "state": "MERGED",
+      "mergedAt": "2016-01-17T22:42:13Z",
+      "author": {
+        "login": "davidchase"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NTYwODUwMDY=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NTYwODUwMDY=",
+      "title": "replace ramda repl with ramtuary based repl",
+      "createdAt": "2016-01-14T19:54:54Z",
+      "closedAt": "2016-01-17T04:47:19Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "davidchase"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDczNzQ4Njk=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDczNzQ4Njk=",
+      "title": "include @since, @typedefn, and additional @sig annotations",
+      "createdAt": "2015-10-11T20:38:29Z",
+      "closedAt": "2016-01-15T15:05:01Z",
+      "state": "MERGED",
+      "mergedAt": "2016-01-15T15:05:01Z",
+      "author": {
+        "login": "davidchambers"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDE0Nzk3NTc=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDE0Nzk3NTc=",
+      "title": "First proposal for #24",
+      "createdAt": "2015-08-03T15:37:29Z",
+      "closedAt": "2015-08-07T18:02:56Z",
+      "state": "MERGED",
+      "mergedAt": "2015-08-07T18:02:56Z",
+      "author": {
+        "login": "branneman"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDgyODcyNTM=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDgyODcyNTM=",
+      "title": "fix \"see also\" links",
+      "createdAt": "2015-10-21T04:30:04Z",
+      "closedAt": "2015-10-21T04:30:34Z",
+      "state": "MERGED",
+      "mergedAt": "2015-10-21T04:30:34Z",
+      "author": {
+        "login": "davidchambers"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDgyNTU1NjY=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDgyNTU1NjY=",
+      "title": "Better looking REPL",
+      "createdAt": "2015-10-20T20:47:25Z",
+      "closedAt": "2015-10-20T21:15:21Z",
+      "state": "MERGED",
+      "mergedAt": "2015-10-20T21:15:21Z",
+      "author": {
+        "login": "Youpinadi"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDgyMTA2NDc=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDgyMTA2NDc=",
+      "title": "better looking REPL",
+      "createdAt": "2015-10-20T14:46:11Z",
+      "closedAt": "2015-10-20T20:37:55Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "Youpinadi"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDc1NTcyMjc=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDc1NTcyMjc=",
+      "title": "update \"docs\" directory",
+      "createdAt": "2015-10-13T16:36:24Z",
+      "closedAt": "2015-10-15T16:22:44Z",
+      "state": "MERGED",
+      "mergedAt": "2015-10-15T16:22:44Z",
+      "author": {
+        "login": "davidchambers"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDczNTcwMDY=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDczNTcwMDY=",
+      "title": "simplify build process",
+      "createdAt": "2015-10-11T00:16:24Z",
+      "closedAt": "2015-10-13T00:13:46Z",
+      "state": "MERGED",
+      "mergedAt": "2015-10-13T00:13:46Z",
+      "author": {
+        "login": "davidchambers"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDUyOTgyMTI=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDUyOTgyMTI=",
+      "title": "REPL examples in ES6",
+      "createdAt": "2015-09-17T14:40:12Z",
+      "closedAt": "2015-09-18T17:01:10Z",
+      "state": "MERGED",
+      "mergedAt": "2015-09-18T17:01:10Z",
+      "author": {
+        "login": "hemanth"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDM0MjcxNjQ=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDM0MjcxNjQ=",
+      "title": "Fix minor description errata",
+      "createdAt": "2015-08-26T17:10:55Z",
+      "closedAt": "2015-08-27T00:36:32Z",
+      "state": "MERGED",
+      "mergedAt": "2015-08-27T00:36:32Z",
+      "author": {
+        "login": "igncp"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDIzODkxMzM=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDIzODkxMzM=",
+      "title": "Add missing R variable in example",
+      "createdAt": "2015-08-13T19:29:27Z",
+      "closedAt": "2015-08-13T21:46:49Z",
+      "state": "MERGED",
+      "mergedAt": "2015-08-13T21:46:49Z",
+      "author": {
+        "login": "igncp"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0NDA4NTYzOTM=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0NDA4NTYzOTM=",
+      "title": "Adding immutability section",
+      "createdAt": "2015-07-26T17:19:46Z",
+      "closedAt": "2015-07-26T17:31:42Z",
+      "state": "MERGED",
+      "mergedAt": "2015-07-26T17:31:42Z",
+      "author": {
+        "login": "CrossEye"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzkyODg1OTQ=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzkyODg1OTQ=",
+      "title": "repl: treat {x: 1, y: 2} as object literal rather than block statement",
+      "createdAt": "2015-07-06T17:00:35Z",
+      "closedAt": "2015-07-13T04:09:30Z",
+      "state": "MERGED",
+      "mergedAt": "2015-07-13T04:09:30Z",
+      "author": {
+        "login": "davidchambers"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0Mzk1NTA5MDY=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzk1NTA5MDY=",
+      "title": "handle multi-line and comma-separated @see annotations",
+      "createdAt": "2015-07-09T06:10:39Z",
+      "closedAt": "2015-07-09T13:01:15Z",
+      "state": "MERGED",
+      "mergedAt": "2015-07-09T13:01:15Z",
+      "author": {
+        "login": "kedashoe"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0Mzc1MjY0NDA=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzc1MjY0NDA=",
+      "title": "Adds link to github source for each function card",
+      "createdAt": "2015-06-12T02:10:32Z",
+      "closedAt": "2015-07-09T06:50:45Z",
+      "state": "MERGED",
+      "mergedAt": "2015-07-09T06:50:45Z",
+      "author": {
+        "login": "scott-christopher"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0Mzg3MDE2NDY=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzg3MDE2NDY=",
+      "title": "remove tmp directories",
+      "createdAt": "2015-06-27T01:31:23Z",
+      "closedAt": "2015-06-27T13:20:41Z",
+      "state": "MERGED",
+      "mergedAt": "2015-06-27T13:20:41Z",
+      "author": {
+        "login": "davidchambers"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0Mzg2Mjc3Nzg=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzg2Mjc3Nzg=",
+      "title": "Make `commuteMap` example use `plus10map` consistently",
+      "createdAt": "2015-06-26T08:34:31Z",
+      "closedAt": "2015-06-26T21:38:38Z",
+      "state": "MERGED",
+      "mergedAt": "2015-06-26T21:38:38Z",
+      "author": {
+        "login": "kwijibo"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzgxNjUwNzk=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzgxNjUwNzk=",
+      "title": "docs: render multiple see also items separately",
+      "createdAt": "2015-06-20T08:46:12Z",
+      "closedAt": "2015-06-20T11:45:32Z",
+      "state": "MERGED",
+      "mergedAt": "2015-06-20T11:45:32Z",
+      "author": {
+        "login": "raine"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0Mzc1NzMxMjQ=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0Mzc1NzMxMjQ=",
+      "title": "Update index.html",
+      "createdAt": "2015-06-12T15:07:22Z",
+      "closedAt": "2015-06-12T15:54:43Z",
+      "state": "CLOSED",
+      "mergedAt": null,
+      "author": {
+        "login": "vyorkin"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzU1OTEyMTI=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzU1OTEyMTI=",
+      "title": "repl: apply R.toString to output value",
+      "createdAt": "2015-05-17T18:38:10Z",
+      "closedAt": "2015-05-17T20:39:41Z",
+      "state": "MERGED",
+      "mergedAt": "2015-05-17T20:39:41Z",
+      "author": {
+        "login": "davidchambers"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzU1NzIzNjg=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzU1NzIzNjg=",
+      "title": "copy docs dir instead of redirect fixes #4",
+      "createdAt": "2015-05-16T15:05:06Z",
+      "closedAt": "2015-05-16T23:25:49Z",
+      "state": "MERGED",
+      "mergedAt": "2015-05-16T23:25:49Z",
+      "author": {
+        "login": "buzzdecafe"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzU1NTc0NDc=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzU1NTc0NDc=",
+      "title": "pass url hash through on the redirect",
+      "createdAt": "2015-05-15T22:47:03Z",
+      "closedAt": "2015-05-15T23:12:39Z",
+      "state": "MERGED",
+      "mergedAt": "2015-05-15T23:12:39Z",
+      "author": {
+        "login": "buzzdecafe"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0MzUzODE0NzM=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0MzUzODE0NzM=",
+      "title": "Build",
+      "createdAt": "2015-05-13T23:32:05Z",
+      "closedAt": "2015-05-14T22:01:39Z",
+      "state": "MERGED",
+      "mergedAt": "2015-05-14T22:01:39Z",
+      "author": {
+        "login": "buzzdecafe"
+      },
+      "repoName": "ramda.github.io"
+    },
+    "MDExOlB1bGxSZXF1ZXN0Mjk2NTQ2Nzk=": {
+      "id": "MDExOlB1bGxSZXF1ZXN0Mjk2NTQ2Nzk=",
+      "title": "Use Internet Archive mirror of Why Curry Helps.",
+      "createdAt": "2015-02-19T22:18:54Z",
+      "closedAt": "2015-02-20T00:36:54Z",
+      "state": "MERGED",
+      "mergedAt": "2015-02-20T00:36:54Z",
+      "author": {
+        "login": "cust0dian"
+      },
+      "repoName": "ramda.github.io"
+    }
+  }
+}
