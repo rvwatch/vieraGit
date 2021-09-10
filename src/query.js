@@ -1,12 +1,11 @@
 import axios from 'axios';
 import fs from 'fs';
-import { resolve } from 'path';
  
 const accessToken = "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";
 
 
 const buildReposQuery = (options) => {
-  console.log('the options', options)
+  // console.log('the options', options)
   const query = `
   query Organization($after: String) {
     organization(login: "ramda") {
@@ -23,7 +22,6 @@ const buildReposQuery = (options) => {
     }
   }
 `;
-console.log('Current Query!', query);
 return { query, variables: options }
 }
 
@@ -49,6 +47,7 @@ const buildPullQuery = (options) => {
                 closedAt
                 state
                 mergedAt
+                updatedAt
                 author{
                   login
                 }
@@ -79,7 +78,8 @@ function loadCache() {
     return new Promise((resolve, reject) => {
       fs.readFile('cache.json', (err, data) => {
         if (err){
-          reject(err); 
+          console.log('Cache not found, re-running query.')
+          resolve(); 
           return;
         }
         myCache = JSON.parse(data.toString());
@@ -103,28 +103,41 @@ function saveCache() {
 
 export const getAllPullRequests = async () => {
   await loadCache();
-  console.log('CACHE:', myCache);
-  const repos = await getAllRepos(); 
-  console.log('ALL REPOS:', repos);
-
+  
+  const repos = await getAllRepos();
   // data = [{
   //   repoName: '',
   //   prs: []
   // }];
-  const data = await Promise.all(repos.map(async repoName =>  {
+  console.log('All Repos', repos);
+  const newData = await Promise.all(repos.map(async repoName => {
     const prs = await getAllPRs(repoName);
     
     return { repoName, prs };
   }));
 
-  data.forEach(({ repoName, prs }) => {
+  newData.forEach(({ repoName, prs }) => {
     prs.forEach(pr => {
       pr.repoName = repoName;
       myCache.prs[pr.id] = pr;
     });
   });
+  // { repoName -> { } }
 
-  // console.log('cache:', myCache);
+
+
+  const data = {};
+
+  Object.keys(myCache.prs).forEach(id => {
+    const pr = myCache.prs[id];
+    const { repoName } = pr;
+
+    if (!data[repoName]) data[repoName] = {};
+    data[repoName][pr.id] = pr;
+  });
+  // console.log('rebuilt response:', data);
+
+  myCache.lastQueryTime = new Date(Date.now() - 30000).toISOString();
   await saveCache();
 
   return data;
@@ -142,13 +155,13 @@ export const getAllRepos = async () => {
       break; 
     }
   }
-  // return repos; 
+   return repos; 
   // TODO: un-hardcode
-  return [
-    // 'ramda',
-    'ramdangular',
-    'ramda.github.io'
-  ];
+  // return [
+  //   // 'ramda',
+  //   'ramdangular',
+  //   'ramda.github.io'
+  // ];
 }
 
 export const getReposPage = async (options) => {
@@ -172,18 +185,29 @@ export const getReposPage = async (options) => {
       console.log(err);
     }
   }
+
+
+function hasCachedData(prs){
+  const last = new Date(myCache.lastQueryTime);
+  const oldestNode = new Date(prs[prs.length -1].updatedAt);
+  const result = last > oldestNode;
+  console.log('Has Cached Data', result, last, oldestNode);
+  return result;
+} 
   
 export const getAllPRs = async repoName => {
+  console.log('getAllPrs()', repoName);
   let after = null; 
   let data = [];
   while(true){
-    const { prs, after: _after } = await getPullRequestForRepo({
+    const { prs, after: _after } = await getPullRequestsForRepoPage({
       after,
       name: repoName
     });
     // console.log('requested PRS', prName)
     data = [...data, ...prs];
-    if(_after){
+
+    if(_after && !hasCachedData(prs)){
       after = _after;
       //console.log('Heres after', after)
     } else {
@@ -195,7 +219,9 @@ export const getAllPRs = async repoName => {
 }
 
 
-  export const getPullRequestForRepo = async (options) => {
+
+
+  export const getPullRequestsForRepoPage = async (options) => {
     
     try {
       const response = await axios('https://api.github.com/graphql', {
@@ -205,6 +231,8 @@ export const getAllPRs = async repoName => {
           'Authorization': `Bearer ${accessToken}`,
         },
       });
+
+      // 
       // console.log('THE PR RESPONSE!', response.data.data.organization.repository)
       const { pullRequests } = response.data.data.organization.repository;
       const after = pullRequests.pageInfo.hasNextPage && pullRequests.pageInfo.endCursor;

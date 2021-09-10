@@ -33,15 +33,16 @@ export async function commands (args) {
   // let params = args.slice(2);
 
   // if(!params.length){
-  //   console.log('Set some params foo!!')
+  //   console.log('Pass in some flags: ex --')
   //   return;
   // } else {
   //   processParams(params);
   // }
 
   const data = await getAllPullRequests();
-  console.log('Get me all the info', data);
-  console.log('How many things!?', data.length)
+  // console.log('Get me all the info', data);
+  // console.log('How many things!?', data.length)
+  console.log('How many things!?', Object.keys(data).length)
 }
 
 
