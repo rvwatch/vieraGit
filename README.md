@@ -38,7 +38,7 @@ After that's created you can export your token directly into your shell as:
 
 Examples:
 
-- for linux: `export ACCESS_TOKEN="your PAT"`
+- for linux: `export ACCESS_TOKEN=your PAT` - no quotes
 - for windows: `$env:ACCESS_TOKEN = "your PAT"`
 
 After that's in place you should be able to hop into your shell and run:
