@@ -17,6 +17,7 @@ export let myCache = {
         }
         myCache = JSON.parse(data.toString());
         resolve();
+        console.log('Using Cached Data');
       });
     });
   }
@@ -30,7 +31,6 @@ export let myCache = {
           if (err) {
             reject(err);
           } else {
-            console.log('Cache Created!');
             console.log('Total Available Prs =', myCache.prCount);
             resolve();
           }

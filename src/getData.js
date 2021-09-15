@@ -1,5 +1,5 @@
 import axios from 'axios';
-import { buildReposQuery, buildPullQuery } from './buildQuery';
+import { buildReposQuery, buildPullQuery, buildUserQuery } from './buildQuery';
 
 const ACCESS_TOKEN = process.env.ACCESS_TOKEN;
 
@@ -38,6 +38,26 @@ export const getReposPage = async (options) => {
     const page = repositories.nodes.map(repo => repo.name);
 
     return { page, after };
+  } catch (err) {
+    console.log(err);
+  }
+}
+
+export const getUserData = async (options) => {
+  try {
+    const response = await axios('https://api.github.com/graphql', {
+      method: 'POST',
+      data: JSON.stringify(buildUserQuery(options)),
+      headers: {
+        'Authorization': `Bearer ${ACCESS_TOKEN}`,
+      },
+    });
+
+    const { pullRequests } = response.data.data.viewer.repositories.nodes;
+    const after = pullRequests.pageInfo.hasNextPage && pullRequests.pageInfo.endCursor;
+    const prs = pullRequests.edges.map(edge => edge.node);
+
+    return { prs, after };
   } catch (err) {
     console.log(err);
   }

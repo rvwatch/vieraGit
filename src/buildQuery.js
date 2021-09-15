@@ -58,3 +58,39 @@ export const buildPullQuery = (options) => {
   `;
     return { query, variables: options }
 }
+
+export const buildUserQuery = (options) => {
+  const query = `
+  {
+    viewer {
+      repositories(first: 100, affiliations: [OWNER, COLLABORATOR, ORGANIZATION_MEMBER]) {
+        totalCount
+        pageInfo {
+          endCursor
+          hasNextPage
+        }
+        nodes {
+          owner {
+            login
+          }
+          name
+          pullRequests(first: 100, states: [OPEN, CLOSED, MERGED], orderBy: {field: UPDATED_AT, direction: DESC}) {
+            edges {
+              node {
+                author {
+                  login
+                }
+                title
+                createdAt
+                mergedAt
+                state
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+`;
+  return { query, variables: options }
+}

@@ -1,8 +1,8 @@
 import { gatherAllPullRequests } from './cliFunctions';
 
 // Going to try and parse out flags that I pass in to node via process.argv
-let flags = process.argv.slice(2);
-console.log(flags)
+let params = process.argv.slice(2);
+console.log(params)
 const processParams = (params) => {
     // let params = args.slice(2);
 
@@ -13,6 +13,9 @@ const processParams = (params) => {
   //   processParams(params);
   // }
   for (let i = 0; i < params.length; i += 2) {
+    if(!params[i]){
+      console.log()
+    }
     console.log('Your Params', params[i], params[i + 1]);
     let missingDash = !!params[i].indexOf('-');
     console.log('Missing a dash?', missingDash)
@@ -27,7 +30,42 @@ const processParams = (params) => {
   }
 }
 
+// capture single - and -- flags
+// list all repos per org
+// get number of PRs by Repo name
+// get all prs of a state type open, closed, merged
+// 
 
-export async function commands(args) {
-  await gatherAllPullRequests(args);
+
+// {
+//   list : options;
+//   repo: options
+//   type: options
+// }
+
+// --repo ramda
+// --repo rvwatch
+
+// const messaging = {
+//   missingFlags: `Please enter a valid flag. For example: ', ${Object.keys(commandTypes)}}`,
+//   missingRepo: `Please enter a valid repo name`,
+
+// }
+
+
+// const commandTypes = {
+//   list: 
+// }
+
+
+// const flags = {
+//   --repo: 
+// }
+
+
+
+export async function commands() {
+  const options = processParams(params);
+  await gatherAllPullRequests(options);
+  
 }
