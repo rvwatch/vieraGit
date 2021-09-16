@@ -1,4 +1,4 @@
-import { getPullRequestsForRepoPage, getReposPage } from './getData';
+import { getPullRequestsForRepo, getReposPage, getUserData } from './getData';
 import { myCache, loadCache, saveCache, hasCachedData } from "./cacheFunctions";
 
 export const gatherAllPullRequests = async () => {
@@ -52,7 +52,7 @@ export const getAllPRs = async repoName => {
   let after = null;
   let data = [];
   while (true) {
-    const { prs, after: _after } = await getPullRequestsForRepoPage({
+    const { prs, after: _after } = await getPullRequestsForRepo({
       after,
       name: repoName
     });
@@ -67,6 +67,8 @@ export const getAllPRs = async repoName => {
 
   return data;
 }
+
+
 
 
 
